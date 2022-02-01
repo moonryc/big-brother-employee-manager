@@ -1,0 +1,26 @@
+{
+  "name": "big-brother-employee-manager",
+  "version": "1.0.0",
+  "description": "\"# big-brother-employee-manager\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonryc/big-brother-employee-manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moonryc/big-brother-employee-manager/issues"
+  },
+  "homepage": "https://github.com/moonryc/big-brother-employee-manager#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^15.0.0",
+    "inquirer": "^8.2.0",
+    "mysql2": "^2.3.3"
+  }
+}
