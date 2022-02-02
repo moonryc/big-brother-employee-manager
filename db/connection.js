@@ -1,8 +1,9 @@
-require('dotenv').config({path:'../.env'})
-
 // Connect to database
 const mysql = require("mysql2/promise");
 
+
+console.log(process.env.MY_SQL_USERNAME)
+console.log(process.env.MY_SQL_PASSWORD)
 
 const db = mysql.createConnection(
         {

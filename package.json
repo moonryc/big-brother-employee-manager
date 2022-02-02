@@ -4,7 +4,8 @@
   "description": "\"# big-brother-employee-manager\"",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "run": "node --trace-warnings app.js",
+    "test": "jest --setupFiles dotenv/config"
   },
   "repository": {
     "type": "git",
