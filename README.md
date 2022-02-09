@@ -19,7 +19,17 @@ a node application that can be used to manage a company by providing creation to
 
 ## Installation
 
-clone the repo from github and run **yarn** or **npm i** to install the required dependencies. it is assumed that you already have mySQL installed on your computer as well. Then create a .env in the root of the folder and add two variables **MY_SQL_USERNAME** and **MY_SQL_PASSWORD** and set those variables to your sql username and password. Open mysql in your terminal and run the provided sql files in the db folder at the root of this project in this order **"mysql-> source /db/db.sql; source /db/schema.sql; source /db/schema.sql;"**
+clone the repo from github and run **yarn** or **npm i** to install the required dependencies. it is assumed that you already have mySQL installed on your computer as well. 
+
+Then create a .env in the root of the folder and add two variables **MY_SQL_USERNAME** and **MY_SQL_PASSWORD** and set those variables to your sql username and password. 
+
+Open mysql in your terminal and run the provided sql files in the db folder at the root of this project in this order 
+
+**-> source /db/db.sql;**
+
+**-> source /db/schema.sql;**
+
+**-> source /db/schema.sql;**
 
 
 ## Usage
@@ -38,7 +48,7 @@ console.table, dotenv, inquirer, jest, mysql2
 
 MIT License
 
-Copyright (c) 2022 undefined
+Copyright (c) 2022 Ryan Moon
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
